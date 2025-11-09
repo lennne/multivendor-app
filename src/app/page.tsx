@@ -5,6 +5,14 @@ import { RadioGroup } from "@/components/ui/radio-group";
 import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 
+/**
+ * Renders a padded vertical stack of UI controls used as a simple demo layout.
+ *
+ * The layout includes a Button (elevated), an Input, a Progress indicator set to 50,
+ * a Textarea, and a RadioGroup, each placed in its own row.
+ *
+ * @returns A JSX element containing the composed UI controls
+ */
 export default function Home() {
   return (
     <div className="p-4">
