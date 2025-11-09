@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+## 1. Modifying the look and feel
+- Add DMSans font to the body of the app
+- modify globals.css to make all the borders completely black
 First, run the development server:
 
 ```bash
