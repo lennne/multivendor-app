@@ -38,6 +38,14 @@ const buttonVariants = cva(
   }
 )
 
+/**
+ * Render a styled button or a provided child component with variant and size styling.
+ *
+ * @param variant - Visual variant to apply (controls color, border, and interaction styles).
+ * @param size - Size option to apply (controls height, padding, gap, and child SVG sizing).
+ * @param asChild - If `true`, render the children as the host element via a slot instead of a native `button`.
+ * @returns A JSX element: a styled `button` by default, or the slotted child component when `asChild` is `true`.
+ */
 function Button({
   className,
   variant,
